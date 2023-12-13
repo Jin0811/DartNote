@@ -1,7 +1,20 @@
+# 名称和描述
 name: DartNote
+description: "描述项目"
 
+# 指定包发到哪里去
+publish_to: "none"
+
+# 版本号
+version: 1.0.0
+
+# 环境，指定dart的版本
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+# 生产依赖
 dependencies:
   http: ^0.12.2
+
+# 开发依赖
+dev_dependencies:
