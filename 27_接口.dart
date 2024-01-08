@@ -11,12 +11,12 @@
  */
 
 abstract class Processor {
-  String cores; // 内核
+  late String cores; // 内核
   arch(String name); // 芯片制程
 }
 
 abstract class Camera {
-  String resolution; // 分辨率
+  late String resolution; // 分辨率
   brand(String name); // 品牌
 }
 

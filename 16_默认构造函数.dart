@@ -4,8 +4,8 @@
  */
 
 class Point {
-  num x;
-  num y;
+  late num x;
+  late num y;
 
   // 简写形式，会自动为x和y进行赋值
   // Point(this.x, this.y);

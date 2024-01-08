@@ -5,8 +5,8 @@
  */
 
 class Point {
-  num x;
-  num y;
+  late num x;
+  late num y;
 
   // 默认构造函数
   Point(this.x, this.y);

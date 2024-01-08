@@ -12,7 +12,7 @@ class Person {
   String name;
 
   // 静态内容
-  static Person instance;
+  static late Person instance;
 
   // 工厂构造函数
   // 不能使用this关键字
